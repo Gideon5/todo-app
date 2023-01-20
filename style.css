@@ -42,4 +42,10 @@ form {
     border-top: rgb(111, 81, 20);
     font-size: 1.5rem;
     padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+.todos li.completed {
+    text-decoration: line-through;
+    color: rgb(80, 65, 4);
 }
