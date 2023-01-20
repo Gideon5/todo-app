@@ -31,7 +31,7 @@ function addToDo () {
 
         input.value = ""
 
-        updateLS()
+       console.log( updateLS())
     }
 
 }
@@ -45,7 +45,7 @@ function updateLS() {
     todosEl.forEach((todoEl) => {
         todos.push({
             text: todoEl.innerText,
-            completed: todoEl.classList.toggle.contains("completed")
+            completed: todoEl.classList.contains("completed"),
         })
     })
 
