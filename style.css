@@ -15,10 +15,13 @@ form {
     margin: auto;
     max-width: 100%;
     width: 400px;
+    box-shadow: 0 4px 10px rgba(1, 26, 13, 0.916);
+
 }
 
 .input {
     font-size: 2rem;
+    border: none;
     padding: 1rem 2rem;
     display: block;
     width: 100%;
@@ -36,6 +39,7 @@ form {
 }
 
 .todos li {
+    border-top: rgb(111, 81, 20);
     font-size: 1.5rem;
     padding: 1rem 2rem;
 }
